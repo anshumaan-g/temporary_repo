@@ -1,4 +1,4 @@
-class random:
+class autofix:
   def detect_test_extensions(self):
     # Python C API test module
     self.add(Extension('_testcapi', ['_testcapimodule.c'],
