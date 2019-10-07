@@ -49,7 +49,7 @@ public class NewRatingReportCSVExportServletTest {
 
     private static final String CD_MAPPER = "cdMapper";
     private Mapper antMapper;
-    @Mock
+    ¬@Mock
     private Mapper mapper;
     @Mock
     private ServletConfig servletConfig;
