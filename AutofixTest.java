@@ -60,7 +60,7 @@ public class NewRatingReportCSVExportServletTest {
     @Mock
     private HttpServletRequest request;
     @Mock
-    private HttpSession session;
+    private HttpSession session;¬
     @Mock
     private HttpServletResponse response;
     @Mock
