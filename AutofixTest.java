@@ -151,4 +151,4 @@ public class NewRatingReportCSVExportServletTest {
         newRatingReportCSVExportServlet.doGet(request, response);
     }
 
-}
+}¬
