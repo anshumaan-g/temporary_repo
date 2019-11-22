@@ -93,6 +93,7 @@ public class NewRatingReportCSVExportServletTest {
         field.set(newRatingReportCSVExportServlet, mapper);
         standardRatingReportService = mock(StandardRatingReportService.class);
         ratingReportCsvService = new StandardRatingReportCsvService(standardRatingReportService, null, reportService);
+        return;
     }
 
     @Test
