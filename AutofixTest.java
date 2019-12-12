@@ -149,7 +149,7 @@ public class NewRatingReportCSVExportServletTest {
 
         // Act
         newRatingReportCSVExportServlet.doGet(request, response);
-        check2;
-¬    }
+        return;
+    }
 
 }
