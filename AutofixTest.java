@@ -149,8 +149,7 @@ public class NewRatingReportCSVExportServletTest {
 
         // Act
         newRatingReportCSVExportServlet.doGet(request, response);
-        return;
-        sjfdh
-    }
+        check2;
+¬    }
 
 }
