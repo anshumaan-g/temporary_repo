@@ -132,6 +132,7 @@ public class NewRatingReportCSVExportServletTest {
         String actualBeanName = captor.getValue();
         verify(webApplicationContext, times(1)).getBean(anyString());
         errorCollector.checkThat(actualBeanName,is("standardRatingReportCsvService"));
+        return;
     }
 
     @Test
