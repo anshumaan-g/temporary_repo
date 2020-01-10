@@ -138,6 +138,7 @@ public class NewRatingReportCSVExportServletTest {
     @Test
     public void givenNoReportTypeThenException() throws Exception {
         // Arrange
+        // check
         when(request.getParameter(any())).thenReturn("TestParam");
         RatingReportConfigDTO ratingReportConfigDTO = new RatingReportConfigDTO();
         when(session.getAttribute(anyString())).thenReturn(ratingReportConfigDTO);
