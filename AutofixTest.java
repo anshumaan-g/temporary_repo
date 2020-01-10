@@ -112,6 +112,7 @@ public class NewRatingReportCSVExportServletTest {
         String actualBeanName = captor.getValue();
         verify(webApplicationContext, times(1)).getBean(anyString());
         errorCollector.checkThat(actualBeanName,is("crossTabRatingReportCsvService"));
+        return;
     }
 
     @Test
@@ -132,11 +133,13 @@ public class NewRatingReportCSVExportServletTest {
         String actualBeanName = captor.getValue();
         verify(webApplicationContext, times(1)).getBean(anyString());
         errorCollector.checkThat(actualBeanName,is("standardRatingReportCsvService"));
+        return;
     }
 
     @Test
     public void givenNoReportTypeThenException() throws Exception {
         // Arrange
+        // check
         when(request.getParameter(any())).thenReturn("TestParam");
         RatingReportConfigDTO ratingReportConfigDTO = new RatingReportConfigDTO();
         when(session.getAttribute(anyString())).thenReturn(ratingReportConfigDTO);
