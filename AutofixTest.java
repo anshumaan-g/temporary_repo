@@ -149,6 +149,7 @@ public class NewRatingReportCSVExportServletTest {
 
         // new comment
         // latest comment
+        // very latest comment
 
         // Act
         newRatingReportCSVExportServlet.doGet(request, response);
