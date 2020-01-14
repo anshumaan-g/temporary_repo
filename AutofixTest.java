@@ -147,6 +147,8 @@ public class NewRatingReportCSVExportServletTest {
         //assert
         expectedException.expect(ServletException.class);
 
+        // new comment
+
         // Act
         newRatingReportCSVExportServlet.doGet(request, response);
     }
